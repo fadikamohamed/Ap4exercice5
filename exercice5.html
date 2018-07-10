@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="newApp">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+    <script src="script.js"></script>
+    <title>Exercice 5</title>
+  </head>
+  <body ng-controller="showHide">
+    <button type="button" ng-click="showText()">Afficher</button>
+    <button type="button" ng-click="hideText()">Cacher</button>
+    <div ng-show="parag">{{paragraphe}}</div>
+  </body>
+</html>
